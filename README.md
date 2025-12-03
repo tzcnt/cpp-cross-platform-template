@@ -14,13 +14,21 @@ For VSCode, the extensions "clangd" and "CMake Tools" are required.
 
 Debug, Release, and RelWithDebInfo presets are provided for all environments.
 
+### VSCode Setup - All Environments
+In VSCode, install the following extensions:
+- C/C++
+- CMake Tools
+- clangd
+- LLDB DAP
+
 ### Linux Setup
 Minimum system packages: `cmake`, `ninja-build`, and `clangd`.
+
 Additional system packages: `llvm`, `lldb-dap`.
 
 Just open this folder in VSCode.
 
-### Windows Setup
+### Windows Setup - Using Visual Studio
 Install Visual Studio Community latest edition. In the VS installer select these additional components:
 - LLVM
 - CMake
@@ -30,6 +38,9 @@ Make sure "clangd" is available on your path.
 2. In the terminal, type `clangd --version` and it should print version info.
 
 Then you can open this project folder in Visual Studio. Select a build configuration from the dropdown.
+
+### Windows Setup - Using VSCode
+Our VSCode setup will still be using Visual Studio's build tools, so first follow the Visual Studio installation and clangd check steps from the prior section.
 
 To open this project in VSCode, you need to first use the Visual Studio terminal which sets up necessary environment variables.
 You will need to do this step every time.
