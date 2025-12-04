@@ -6,8 +6,8 @@ Contains reasonable (IMO) presets to build the same application on different env
 | --- | --- | --- | --- |
 | Linux | VSCode | clang | clangd |
 | Linux | VSCode | gcc   | clangd |
-| Windows | Visual Studio 2017+ | clang-cl | clangd |
-| Windows | Visual Studio 2017+ | MSVC | IntelliSense |
+| Windows | VSCode / Visual Studio 2017+ | clang-cl | clangd |
+| Windows | VSCode / Visual Studio 2017+ | MSVC | IntelliSense |
 | MacOS   | VSCode | Apple Clang | clangd |
 
 For VSCode, the extensions "clangd" and "CMake Tools" are required.
