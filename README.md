@@ -21,6 +21,8 @@ In VSCode, install the following extensions:
 - clangd
 - LLDB DAP
 
+In VSCode settings, toggle cmake.options.statusBarVisibility so that the CMake Tools buttons are visible on the bottom bar. Thus will allow you to select the build and run targets.
+
 ### Linux Setup
 Minimum system packages: `cmake`, `ninja-build`, and `clangd`.
 
