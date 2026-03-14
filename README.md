@@ -21,7 +21,7 @@ In VSCode, install the following extensions:
 - clangd
 - LLDB DAP
 
-In VSCode settings, toggle cmake.options.statusBarVisibility so that the CMake Tools buttons are visible on the bottom bar. Thus will allow you to select the build configuration, and build and run targets.
+In VSCode settings, toggle `cmake.options.statusBarVisibility` so that the CMake Tools buttons are visible on the bottom bar. Thus will allow you to select the build configuration, and build and run targets.
 
 You can debug the selected run target using the bug button on the bottom bar, or using the provided launch configurations from the Run and Debug menu.
 
